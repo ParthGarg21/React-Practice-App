@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #383838;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+#root > * {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.logo {
+  color: #f1356d;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.nav-bar {
+  background-color: #ffeff2;
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgb(203, 203, 203);
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-item {
+  color: #383838;
+  margin: 0 1rem;
+  width: 9.5rem;
+  height: 3rem;
+}
+
+.nav-link {
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border: 1px solid;
+  text-decoration: none;
+  color: #383838;
+  transition: all;
+  transition-duration: 0.25s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+}
+
+.btn {
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 1rem;
+  background-color: #fffafc;
+  border-radius: 2rem;
+  border: 2px solid #383838 !important;
+  transition: all;
+  transition-duration: 0.25s;
+  cursor: pointer;
+  font-family: "Quicksand";
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+}
+
+.btn:hover,
+.nav-link:hover {
+  background-color: #383838;
+  color: #fffafc;
+}
+
+.change-btn-con {
+  border: 5px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  padding: 1rem 0;
+}
+
+.blog {
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  transition: all;
+  transition-duration: 0.25s;
+}
+
+.blog:hover {
+  box-shadow: 5px 5px 10px rgb(203, 203, 203);
+}
+
+.blog > * {
+  margin: 1.25rem 0;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #f1356d;
+  text-decoration: underline;
+}
+
+.content {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.blog-con {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  min-height: 70vh;
+}
+
+.blog-category {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.sep {
+  width: 30%;
+  margin: 1rem auto;
+}
+
+.item2 {
+  margin-right: 0;
+}
+
+.post-btn {
+  background-color: #fff;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: royalblue;
+}
+
+.form-con {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.input-heading {
+  color: #f1356d;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.form-btn {
+  margin-left: 0px;
+}
+
+.form-input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  color: #787878;
+  font-family: "Quicksand";
+}
+
+textarea {
+  resize: none;
+  height: 5rem;
+}
+
+footer {
+  margin-top: 5vh;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.25rem;
+}
